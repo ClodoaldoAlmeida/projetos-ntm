@@ -1,0 +1,36 @@
+#!/bin/bash
+echo '-----------------------Atualiza Sistema!----------------------'
+echo '----------------------Instala Programas!----------------------'
+
+## comando para atualizar o sistema##
+sudo apt update -y;sudo apt upgrade -y
+
+## instalar programas##
+sudo apt install synaptic -y
+sudo apt install vlc -y
+sudo apt install brasero -y
+sudo apt install snapd -y
+sudo apt install gparted -y
+sudo apt install gdebi -y
+sudo apt install kate -y
+sudo apt install ssh -y
+sudo apt install htop -y
+
+echo '----------------------Instala Programas SNAP!----------------------'
+##instala o snap##
+sudo apt snap install spotify
+
+echo '----------------------Instala Navegador Google Chrome!----------------------'
+
+wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+sudo dpkg -i google-chrome-stable_current_amd64.deb 
+
+# ----------------------------- PÓS-INSTALAÇÃO ----------------------------- #
+## Finalização, atualização e limpeza##
+sudo apt update && sudo apt dist-upgrade -y
+sudo apt autoclean
+sudo apt autoremove -y
+# ---------------------------------------------------------------------- #
+
+echo '----------------------OK!!Seus programas estão instalados e atualizados!----------------------'
