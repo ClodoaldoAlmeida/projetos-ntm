@@ -1,0 +1,3 @@
+sudo apt-add-repository ppa:oiteam/oi-lab
+sudo apt update
+sudo apt install oi-lab-proinfo-multi-seat-utils oi-lab-userful-rescue
