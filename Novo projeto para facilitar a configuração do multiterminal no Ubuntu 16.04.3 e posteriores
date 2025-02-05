@@ -1,4 +1,6 @@
-#https://discourse.c3sl.ufpr.br/t/oi-lab-novo-projeto-para-facilitar-a-configuracao-do-multiterminal-no-ubuntu-16-04-3-e-posteriores/241
+
+
+https://discourse.c3sl.ufpr.br/t/oi-lab-novo-projeto-para-facilitar-a-configuracao-do-multiterminal-no-ubuntu-16-04-3-e-posteriores/241
 
 sudo apt-add-repository ppa:oiteam/oi-lab
 sudo apt update
